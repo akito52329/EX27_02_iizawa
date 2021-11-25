@@ -14,15 +14,16 @@ namespace ConstructorSampe
         /// <summary>
         /// 三角形
         /// </summary>
-        /// <param name="a">辺1</param>
-        /// <param name="b">辺2</param>
-        /// <param name="c">辺3</param>
-        public Triangle(float a, float b, float c)
-        {
-            this.a = a;
-            this.b = b;
-            this.c = c;
-        }
+        /// <param name="a">辺AB</param>
+        /// <param name="b">辺BC</param>
+        /// <param name="c">辺CA</param>
+        /// 
+         public Triangle(float edgeAB, float edgeBC, float edgeCA)
+         {
+             this.a = edgeAB;
+             this.b = edgeBC;
+             this.c = edgeCA;
+         }
 
 
         /// <summary>
