@@ -12,11 +12,11 @@ namespace ConstructorSampe
         private float s;
 
         /// <summary>
-        /// 
+        /// 三角形
         /// </summary>
-        /// <param name="a"></param>
-        /// <param name="b"></param>
-        /// <param name="c"></param>
+        /// <param name="a">辺1</param>
+        /// <param name="b">辺2</param>
+        /// <param name="c">辺3</param>
         public Triangle(float a, float b, float c)
         {
             this.a = a;
@@ -28,7 +28,7 @@ namespace ConstructorSampe
         /// <summary>
         /// 三角形の面積
         /// </summary>
-        /// <returns>計算</returns>
+        /// <returns>ヘロンの公式での計算</returns>
         public double GetSurface()
         {
             s = (a + b + c) / 2;
